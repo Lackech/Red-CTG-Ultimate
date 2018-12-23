@@ -28,6 +28,7 @@
         <a href="#"><span class="fa fa-facebook-official"></span></a>
         <a href="#"><span class="fa fa-twitter-square"></span></a>
         <a href="#"><span class="fa fa-youtube-play"></span></a>
+        <a href="#"><span class="fa fa-youtube-play"></span></a>
    	</div>
   </div>  
   
