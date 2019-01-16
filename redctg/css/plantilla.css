@@ -564,6 +564,7 @@ body {
     width: 155px;
     height: 100px;
     background-size: cover;
+    flex-shrink: 0;
 }
 
 .intro-text-module{
@@ -1099,6 +1100,26 @@ div.catItemIntroText {
         left: 10px;
         width: 57px;
     }
+
+
+    /**************** Todas las noticias *****************/
+    div.catItemBody{
+        flex-direction: column;
+    }
+
+    .caja-derecha {
+        margin: -20px 0px;
+    }
+
+    .background-lista-noticias{
+        width: 200px;
+    }
+
+
+    /*****************************************************/
+
+
+
 
 }
 
