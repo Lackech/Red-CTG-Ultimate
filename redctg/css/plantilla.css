@@ -458,7 +458,7 @@ body {
 .blog img{
     border-radius: 250px;
     width: 200px;
-    height: 200px;
+    height: 215px;
     padding: 30px;
 
 
@@ -569,6 +569,9 @@ body {
 
 .intro-text-module{
     text-decoration: none;
+    font-size: 14px;
+    padding: 5px;
+    font-family: Arial;
 }
 
 .boton-noticias{
