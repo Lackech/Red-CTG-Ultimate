@@ -36,12 +36,16 @@ body {
 }
 
 .jd-item-page .jd_footer{
-    display: none;
 }
 
 a{
-
+    text-decoration: none;
 }
+
+a:visited{
+    color: #000000;
+}
+
 
 /********************************************** Fin estilo temporal *********************************************/
 
@@ -325,7 +329,7 @@ a{
 
     font-size: 20px;
     background-color: #4e2350;
-    color: white;
+    color: white !important;
     text-decoration: none;
     padding: 10px 105px;
 }
@@ -461,7 +465,7 @@ a{
 
 .blog img{
     border-radius: 250px;
-    width: 200px;
+    width: 215px;
     height: 215px;
     padding: 30px;
 
@@ -539,19 +543,16 @@ a{
 
 .moduleItemReadMore{
     float: right;
-
     font-size: 12px;
-
-    margin-right: 20px;
-
+    margin-right: 20px;.moduleItemReadMore
     margin-top: -15px;
-    color: #33907d;
+    color: #33907d !important;
 }
 
 .moduleCustomLink{
     padding: 12px 34px;
     background-color: #502552;
-    color: white;
+    color: white !important;
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
@@ -576,6 +577,7 @@ a{
     font-size: 14px;
     padding: 5px;
     font-family: Arial;
+    margin-top: 5px;
 }
 
 .boton-noticias{
@@ -625,7 +627,7 @@ div.k2ItemsBlock {
 }
 .titulo-box{
     text-decoration: none;
-    color: #8cb484;
+    color: #8cb484 !important;
     font-weight: bold;
     font-size: 18px;
 
@@ -661,7 +663,7 @@ div.k2ItemsBlock {
 .customLinkDocs{
     padding: 12px 34px;
     background-color: #502552;
-    color: white;
+    color: white !important;
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
@@ -802,6 +804,40 @@ div.catItemIntroText {
 
 
 /******************************** Fin de stilo a todas las noticias *********************************************/
+
+/******************************** Estilo de los documentos ***************************************************/
+
+.jd_files_subheader, .jd_cat_subheader, .jd_cats_subheader{
+    display: none;
+}
+
+.jd_files_title{
+    display: none;
+}
+
+.jd_back_button{
+    display: none;
+}
+
+.jdbutton{
+    display: none;
+}
+
+.jd_footer a {
+    display: none;
+}
+
+.jd_download_url{
+    color: #4e224e;
+    font-size: 20px;
+}
+
+.jd_cats_sum_subcats, .jd_cats_sum_files{
+    display: none;
+}
+
+
+
 
 
 /***************************************** Estilo RESPONSIVE *****************************************************/
@@ -1170,6 +1206,8 @@ div.catItemIntroText {
     }
 
 }
+
+
 
 
 
