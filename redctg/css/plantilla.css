@@ -833,9 +833,24 @@ div.catItemIntroText {
 }
 
 .jd_cats_sum_subcats, .jd_cats_sum_files{
+    float: none;
+    display: flex;
+    padding: 0px;
+}
+
+.jd_cat_main img{
     display: none;
 }
 
+.jd_cat_main{
+    margin: 17px 80px;
+    font-size: 20px;
+}
+
+.jd_categories_inner_wrapper{
+    float: none;
+    padding-top: 0px;
+}
 
 
 
