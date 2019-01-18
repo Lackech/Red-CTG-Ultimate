@@ -46,6 +46,14 @@ a:visited{
     color: #000000;
 }
 
+.tooltip{
+    display: none !important;
+}
+
+.popover{
+    display: none !important;
+}
+
 
 /********************************************** Fin estilo temporal *********************************************/
 
@@ -737,9 +745,25 @@ div.k2ItemsBlock {
 
 /* Paginador */
 
+div.k2Pagination ul li a {
+    color: white;
+    background: #502552;
+    border-radius: 0px;
+
+}
+
+
+
 div.k2Pagination ul li a:hover {
+    background-color:rgba(78, 35, 80, 0.5) ;
 
 
+}
+
+
+
+
+.pagenav{
 
 }
 
