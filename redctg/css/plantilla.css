@@ -863,12 +863,16 @@ div.catItemIntroText {
 }
 
 .jd_cat_main img{
-    display: none;
+
 }
 
 .jd_cat_main{
     margin: 17px 80px;
     font-size: 20px;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
 }
 
 .jd_categories_inner_wrapper{

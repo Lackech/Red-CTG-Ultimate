@@ -1,7 +1,6 @@
 // Passing a named function instead of an anonymous function.
 
 function stopThis( ) {
-
     console.log( "ready!" );
 }
 

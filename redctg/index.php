@@ -77,7 +77,7 @@
 
    
   <?php if($this->countModules('fullcontent-top')) : ?>
-  <div class="fullcontenido-top">
+  <div id="presen" class="fullcontenido-top">
     <jdoc:include type="modules" name="fullcontent-top" style="xhtml" />
   </div>
   <?php endif; ?>
