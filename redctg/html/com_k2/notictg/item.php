@@ -542,15 +542,22 @@ defined('_JEXEC') or die;
 	<?php if($this->item->params->get('itemNavigation') && !JRequest::getCmd('print') && (isset($this->item->nextLink) || isset($this->item->previousLink))): ?>
 	<!-- Item navigation -->
 	<div class="itemNavigation">
-		<span class="itemNavigationTitle"><?php echo JText::_('K2_MORE_IN_THIS_CATEGORY'); ?></span>
+        <div>
+            <a href="http://pruebas2.inie.ucr.ac.cr/index.php/noticias">
+                <span class="itemNavigationTitle fa fa-arrow-circle-left"></span>
+            </a>
+        </div>
 
-		<?php if(isset($this->item->previousLink)): ?>
-		<a class="itemPrevious" href="<?php echo $this->item->previousLink; ?>">&laquo; <?php echo $this->item->previousTitle; ?></a>
-		<?php endif; ?>
+        <div>
+            <a class="k2Anchor" href="<?php echo $this->item->link; ?>#startOfPageId<?php echo JRequest::getInt('id'); ?>">
+                <span class="fa fa-arrow-circle-up"></span>
+            </a>
+        </div>
 
-		<?php if(isset($this->item->nextLink)): ?>
-		<a class="itemNext" href="<?php echo $this->item->nextLink; ?>"><?php echo $this->item->nextTitle; ?> &raquo;</a>
-		<?php endif; ?>
+
+
+
+
 	</div>
 	<?php endif; ?>
 
@@ -668,14 +675,7 @@ defined('_JEXEC') or die;
 	</div>
 	<?php endif; ?>
 
-	<?php if(!JRequest::getCmd('print')): ?>
-	<div class="itemBackToTop">
-		<a class="k2Anchor" href="<?php echo $this->item->link; ?>#startOfPageId<?php echo JRequest::getInt('id'); ?>">
-            <span class="fa fa-arrow-circle-up"></span>
 
-		</a>
-	</div>
-	<?php endif; ?>
 
 	<div class="clr"></div>
 
