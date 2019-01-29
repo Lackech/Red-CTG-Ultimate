@@ -869,7 +869,7 @@ div.catItemIntroText {
 .jd_cat_main{
     margin: 17px 80px;
     font-size: 20px;
-    width: 80%;
+    width: auto;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
@@ -880,6 +880,27 @@ div.catItemIntroText {
     padding-top: 0px;
 }
 
+.jd_categories_title_v46, .jd_categories_title{
+    display: flex;
+}
+
+/**************************************** Estilo la noticia *************************************/
+
+
+.k2Anchor{
+    font-size: 50px;
+    color: #33907d;
+    opacity: 0.8;
+}
+
+div.itemFullText{
+    color: #FF00FF0;
+}
+
+
+
+
+/**************************************** Fin estilo la noticia ************************************/
 
 
 
