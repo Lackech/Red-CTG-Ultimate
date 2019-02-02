@@ -1,8 +1,8 @@
-// Passing a named function instead of an anonymous function.
+/*
+*   Author: Alejandro Chacon
+*   Universidad de Costa Rica
+*/
 
-function stopThis( ) {
-    console.log( "ready!" );
-}
 
 
 function showMenu() {
