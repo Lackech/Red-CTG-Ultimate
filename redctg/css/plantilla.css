@@ -76,6 +76,7 @@ a:visited{
     float: right;
     margin-right: 35px;
     margin-top: -5px;
+    display: none;
 }
 
 /*Modifica los iconos de la barra social-media*/
@@ -289,6 +290,7 @@ a:visited{
 
 .footer-icon-row span{
     color: white;
+    display: none;
 }
 
 .copyright{
@@ -1066,6 +1068,7 @@ div.itemNavigation {
     .footer-icon-row{
         left: 20px;
         margin-top: 80px;
+        display: none;
     }
 
 
